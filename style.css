@@ -1,0 +1,70 @@
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-image: url(images/bgImage.jpg);
+    height: 200px;
+    object-fit: cover;
+}
+.circleImage {
+    margin-top: 45px;
+    margin-left: 20px;
+    width: auto;
+    height: 180px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.mainDisplay{
+   margin-top: 230px;
+  
+}
+.mainDisplay h1{
+    color: rgb(36, 30, 30);
+    margin-left: 10px;
+}
+.type3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.lists{
+    margin-left: 70px;
+    color: #000;
+    margin-top: 20px;
+}
+li{
+    margin-top: 8px;
+}
+body{
+    background-color: antiquewhite;
+}
+footer{
+    left: 0;
+    width: 100%;
+    background-color: rgb(144, 147, 143);
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+
+}
+.icon{
+    right: 0;
+    height: 40px;
+    width: 40px;
+}
+.side{
+    margin-left: 25px;
+    display: inline-block;
+    width: 50%;
+    
+}
+.side2{
+    float: right;
+    display:inline-block;
+   
+}
+.inlineP{
+    display: inline-block;
+}
