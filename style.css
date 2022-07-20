@@ -47,7 +47,6 @@ footer{
     height: 80px;
     position: fixed;
     bottom: 0;
-
 }
 .icon{
     right: 0;
@@ -68,3 +67,12 @@ footer{
 .inlineP{
     display: inline-block;
 }
+th, td {
+    border-style: solid;
+    
+   
+  }
+
+  table{
+    border-collapse: collapse;
+  }
