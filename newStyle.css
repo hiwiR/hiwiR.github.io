@@ -1,5 +1,8 @@
 body{
     background-color: rgb(46, 43, 43);
+     @media screen(max-width:1200px) and (min-width :768px) {
+        
+     }
 }
 .flex-container{
 
@@ -11,10 +14,8 @@ body{
 
 }
 .childeren{
-    width:400px;
-    height: 300px;
+   flex:33%;
     color: white;
-   
     
 }
 .phoneIcon{
@@ -26,7 +27,7 @@ button{
     background-color: orange;
     height: 30px;
     width: 35%;
-    border-radius: 20px;
+    border-radius: 10px;
     align-self: flex-end;
     margin-left: -20px;
     color: white;
@@ -36,6 +37,7 @@ input{
     border-bottom-left-radius: 20%;
     height: 25px;
     width: 60%;
+    margin-left: 15px;
     padding-left: 10px;
     background-color: rgb(90, 86, 86);
 }
@@ -43,6 +45,7 @@ input{
     display: grid;
     grid-template-columns: 1fr 5fr;
     column-gap: 8px;
+
 
 }
 .twitterPicture{
@@ -60,10 +63,9 @@ input{
 .imageGridContainer{
     display: grid;
     grid-template-columns: max-content max-content;
-    align-content: space-evenly;
     column-gap :5px;
     row-gap:5px;
-    align-items: center;
+    
     
     
 }
@@ -97,4 +99,8 @@ hr{
     width: 95%;
 }
 
-
+@media screen and (max-width:700px) {
+    .flex-container{
+        flex-direction:column;
+    } 
+}
