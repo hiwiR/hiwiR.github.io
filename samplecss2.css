@@ -1,0 +1,109 @@
+body {
+    font-family: var(--font-roboto);
+    background-color: #000000;
+  }
+.header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    text-align: center;
+    position: sticky;
+}
+div.header img{
+    width: 45px;
+    height: 45px;
+}
+.signUpdiv{
+    display: flex; 
+    align-items: center;  
+}
+div.header label{
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div.signUpdiv label{
+    background-color: lightslategray;
+    border-radius: 15px;
+    margin-right:18px ;
+    padding: 5px;
+}
+.leftSide{
+    display: flex;
+    align-items: center;
+}
+div.leftSide label{
+    margin-left: 13px;
+}
+div.signUpdiv img{
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+}
+.headText{
+    color: white;
+    font-weight: 700;
+}
+.mainContainer{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+}
+.firstContainer{
+    display: flex;
+}
+#rightNext{
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+}
+#rightNext:hover{
+    border: 3px solid white;
+}
+.firstContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.app{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+ justify-content: center;
+}
+.movie{
+    margin: 10px;
+    text-align: center;
+}
+.containers{
+  margin-top: 55px;
+  text-align: center;
+}
+.movie img{
+    width: 160px;
+    height: 180px;
+    border-radius: 15px;
+}
+.movie:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+    opacity: 0.3;
+}
+.containerTop{
+
+    display: flex;
+}
+@media screen and (max-width: 800px){
+    .app{
+        grid-template-columns: 1fr;
+    }
+    .movie img{
+        width: 80%;
+        height: 80%;
+        border-radius: 15px;
+    }
+    
+    
+}
